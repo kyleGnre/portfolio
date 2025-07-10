@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## Live Demo
 
-[[https://your-portfolio-url.vercel.app](https://kyle-genarie-portfolio.vercel.app/)](https://your-portfolio-url.vercel.app)
+[[[https://kyle-genarie-portfolio.vercel.app/]](https://kyle-genarie-portfolio.vercel.app/)]
 
 ---
 
