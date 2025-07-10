@@ -4,21 +4,14 @@
 
 @font-face {
   font-family: 'SuperBrigade';
-  src: url('./fonts/superbrigade.ttf') format('truetype');
+  src: url('./fonts/SuperBrigade.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'SDDystopian';
-  src: url('./fonts/sddystopian.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Direction';
-  src: url('./fonts/direction.ttf') format('truetype');
+  font-family: 'Sddystopian';
+  src: url('./fonts/Sddystopian.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
