@@ -38,5 +38,5 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/kyleGnre/portfolio.git
    cd portfolio
