@@ -69,10 +69,10 @@ const App = () => {
   <Canvas camera={{ position: [0, 0, 10], fov: 40 }}>
     <ambientLight intensity={0.6} />
     <directionalLight position={[10, 10, 5]} intensity={1} />
-  <Planet textureUrl="/public/textures/earth.jpg" position={[-5.5, 6.5, -14]} size={1.5} />
-  <Planet textureUrl="/public/textures/mars.jpg" position={[5.5, 4.5, -14]} size={1.5} />
-  <Planet textureUrl="/public/textures/neptune.jpg" position={[-5.5, -4, -14]} size={1.5} />
-    <Planet textureUrl="/public/textures/moon.jpg" position={[6, -5, -14]} size={1.5} />
+  <Planet textureUrl="/textures/earth.jpg" position={[-5.5, 6.5, -14]} size={1.5} />
+  <Planet textureUrl="/textures/mars.jpg" position={[5.5, 4.5, -14]} size={1.5} />
+  <Planet textureUrl="/textures/neptune.jpg" position={[-5.5, -4, -14]} size={1.5} />
+    <Planet textureUrl="/textures/moon.jpg" position={[6, -5, -14]} size={1.5} />
 </Canvas>
   </div>
 
