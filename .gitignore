@@ -20,3 +20,5 @@ yarn-error.log*
 
 # Optional: coverage reports if you add tests
 coverage/
+
+*.mp4
