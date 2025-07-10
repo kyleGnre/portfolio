@@ -110,7 +110,7 @@ const App = () => {
     <div className="bg-[#1a1a1a] p-2 rounded-t-xl overflow-hidden border-b border-gray-800 line-reveal" data-delay= "500">
   <div className="w-full aspect-video bg-black rounded-lg overflow-hidden shadow-inner">
     <img
-      src="/images/traverse.JPG"
+      src="/images/traverse.jpg"
       alt="Travel Itinerary Planner"
       className="w-full h-full object-contain"
     />
@@ -139,7 +139,7 @@ const App = () => {
     <div className="bg-[#1a1a1a] p-2 rounded-t-xl overflow-hidden border-b border-gray-800 line-reveal" data-delay= "1000">
       <div className="w-full aspect-video bg-black rounded-lg overflow-hidden shadow-inner">
         <img
-          src="/images/BTH-demo.JPG"
+          src="/images/bth-demo.jpg"
           alt="Beat The Hero"
           className="w-full h-full object-contain pt-0"
         />
