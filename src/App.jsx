@@ -124,7 +124,7 @@ const App = () => {
         </p>
         <div className="text-center">
         <a
-          href="/demos/traverse-demo.mp4"
+          href="https://youtu.be/7bnjq6lKPgc?si=LdrDHS16bb3Mby3j"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded-lg transition duration-200"
@@ -153,7 +153,7 @@ const App = () => {
         </p>
         <div className="text-center">
           <a
-            href="/demos/BTH-demo.mp4"
+            href="https://youtu.be/VMI4HcZAxj8?si=CWWEAiqI5oIi63YX"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded-lg transition duration-200"
