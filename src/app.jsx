@@ -77,7 +77,7 @@ const App = () => {
   </div>
 
   <section className="pt-8 text-center pb-10">
-    <h2 className="text-9xl opacity-70 font-sddystopian mb-10 line-reveal" data-delay="0">About Me</h2>
+    <h2 className="text-9xl opacity-70 font-dystopian mb-10 line-reveal" data-delay="0">About Me</h2>
     <p className="text-base font-sans max-w-6xl mx-auto line-reveal" data-delay="200">
       I am a passionate and adaptable Software Developer with a strong academic foundation and hands-on experience in designing and delivering full-stack </p>
       <p className="text-base font-sans max-w-6xl mx-auto line-reveal" data-delay="400">
@@ -102,7 +102,7 @@ const App = () => {
       independently, I strive to write clean, maintainable code and deliver high-quality software that makes an impact. </p>
   </section>
   <section className="px-[10vw] py-20 text-custom-blue">
-  <h2 className="text-9xl opacity-70 font-sddystopian mb-20 text-center line-reveal">Projects</h2>
+  <h2 className="text-9xl opacity-70 font-dystopian mb-20 text-center line-reveal">Projects</h2>
 
   <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
 
@@ -169,7 +169,7 @@ const App = () => {
 
 
   <section className="py-20  text-custom-blue text-center line-reveal mb-20">
-  <h2 className="text-9xl opacity-70 font-sddystopian mb-0">Contact</h2>
+  <h2 className="text-9xl opacity-70 font-dystopian mb-0">Contact</h2>
   {/* === Contact Form === */}
   <h2 className="text-base text-white font-sans md-10">Let's Connect!</h2>
   <form
