@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SuperBrigade';
+  src: url('./Assets/fonts/SuperBrigade.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sddystopian';
+  src: url('./assets/fonts/Sddystopian.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Direction';
+  src: url('./assets/fonts/Direction.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+/* Zoom-in animation */
+@keyframes zoomIn {
+  0% {
+    transform: scale(.03);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.zoom-in {
+  animation: zoomIn 4s ease-out forwards;
+}
+
+/* Massive starfield from box-shadow */
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 1px;
+  width: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: starZoom 20s alternate infinite;
+  box-shadow: 
+    38vw -23vh 0px 1px #fff, -34vw -36vh 1px 0px #fff, 19vw 12vh 0px 0px #fff, -49vw 14vh 1px 0px #fff,
+    -24vw -7vh 0px 0px #fff, 33vw -20vh 0px 1px #fff, -30vw 35vh 1px 1px #fff, 45vw 10vh 0px 1px #fff,
+    3vw 45vh 1px 1px #fff, 20vw -45vh 0px 0px #fff, 14vw 3vh 0px 0px #fff, -12vw 11vh 1px 1px #fff,
+    -41vw -44vh 0px 0px #fff, 8vw -31vh 1px 1px #fff, 29vw -14vh 1px 0px #fff, -16vw -41vh 1px 1px #fff,
+    -48vw 37vh 1px 1px #fff, 10vw 38vh 1px 0px #fff, -15vw -19vh 0px 1px #fff, 24vw -4vh 1px 0px #fff,
+    1vw 1vh 1px 1px #fff, -3vw 8vh 0px 0px #fff, 44vw -48vh 1px 0px #fff, -39vw 45vh 1px 0px #fff,
+    22vw -32vh 0px 0px #fff, -44vw 16vh 1px 1px #fff, 4vw -40vh 1px 1px #fff, 6vw 20vh 1px 0px #fff,
+    18vw -16vh 1px 0px #fff, -17vw -10vh 1px 0px #fff, -33vw 6vh 1px 0px #fff, -5vw 27vh 0px 1px #fff,
+    39vw -3vh 0px 1px #fff, 12vw 14vh 1px 1px #fff, -8vw 17vh 1px 1px #fff, 17vw -29vh 1px 1px #fff,
+    0vw -39vh 1px 0px #fff, -21vw 50vh 0px 1px #fff, 13vw -37vh 1px 0px #fff, 35vw -45vh 1px 1px #fff,
+    -38vw -5vh 0px 0px #fff, 25vw 46vh 1px 0px #fff, -9vw 26vh 1px 1px #fff, 28vw 11vh 1px 0px #fff,
+    40vw 5vh 1px 1px #fff, -19vw 21vh 0px 1px #fff, -36vw 42vh 0px 1px #fff, 2vw -15vh 0px 0px #fff,
+    -7vw -13vh 1px 1px #fff, -6vw 33vh 0px 1px #fff, -22vw -46vh 1px 0px #fff, 46vw -8vh 0px 1px #fff,
+    -28vw -16vh 1px 0px #fff, -10vw 49vh 1px 1px #fff, -43vw -17vh 0px 1px #fff, -13vw -32vh 1px 0px #fff,
+    37vw 2vh 1px 0px #fff, 11vw 25vh 1px 0px #fff, -26vw -39vh 1px 1px #fff, 31vw -32vh 0px 0px #fff,
+    9vw -23vh 0px 1px #fff, 16vw 22vh 1px 0px #fff, 48vw 39vh 0px 1px #fff, 26vw 2vh 0px 0px #fff,
+    -25vw 20vh 1px 0px #fff, -20vw -2vh 1px 1px #fff, 0vw 18vh 0px 0px #fff, 41vw 24vh 1px 0px #fff,
+    -31vw -24vh 0px 1px #fff, 34vw 31vh 1px 0px #fff, -47vw 11vh 0px 0px #fff, 27vw -28vh 1px 1px #fff;
+}
+
+/* Shooting stars */
+.shooting-star {
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, white, transparent);
+  animation: shoot 3s infinite ease-in;
+}
+
+.shooting-star:nth-child(2) { top: 20%; left: -100px; animation-delay: 0s; }
+.shooting-star:nth-child(3) { top: 35%; left: -100px; animation-delay: 1s; }
+.shooting-star:nth-child(4) { top: 50%; left: -100px; animation-delay: 2s; }
+.shooting-star:nth-child(5) { top: 65%; left: -100px; animation-delay: 3s; }
+.shooting-star:nth-child(6) { top: 80%; left: -100px; animation-delay: 4s; }
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes shoot {
+  0% {
+    transform: translateX(0) translateY(0) rotate(-150deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(120vw) translateY(50vh) rotate(-150deg);
+    opacity: 0;
+  }
+}
+
+@keyframes starZoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.line-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  will-change: opacity, transform;
+}
+
+.line-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
