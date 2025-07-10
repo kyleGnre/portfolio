@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'SuperBrigade';
-  src: url('./fonts/SuperBrigade.ttf') format('truetype');
+  font-family: 'superbrigade';
+  src: url('./fonts/superbrigade.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sddystopian';
-  src: url('./fonts/Sddystopian.ttf') format('truetype');
+  font-family: 'sddystopian';
+  src: url('./fonts/sddystopian.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Direction';
-  src: url('./fonts/Direction.ttf') format('truetype');
+  font-family: 'direction';
+  src: url('./fonts/direction.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
