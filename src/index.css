@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'SuperBrigade';
-  src: url('./fonts/SuperBrigade.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Sddystopian';
-  src: url('./fonts/Sddystopian.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html,
 body,
 #root {
