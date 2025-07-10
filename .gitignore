@@ -1,0 +1,22 @@
+# Node modules folder (don't upload this!)
+node_modules/
+
+# Build output folder
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Mac system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Optional: coverage reports if you add tests
+coverage/
