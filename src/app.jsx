@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Stars } from '@react-three/drei';
-import Planet from './components/Planet';
+import Planet from './components/planet';
 import { motion } from 'framer-motion';
 
 const useLineReveal = () => {
